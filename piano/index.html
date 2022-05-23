@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>piano</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h1>1</h1>
+                <div class="music-key">
+                    <table>
+                        <tr>
+                            <td class="keyb-key"></td>
+                        </tr>
+                        <tr>
+                            <td class="mus-key"></td></td>
+                        </tr>
+                    </table>
+                </div>
+                <img class="music-sheet" src="topham.png" alt="music sheet">
+            </div>
+            <div class="carousel-item">
+                <h1>2</h1>
+                <div class="music-key">
+                    <table>
+                        <tr>
+                            <td class="keyb-key"></td>
+                        </tr>
+                        <tr>
+                            <td class="mus-key"></td>
+                        </tr>
+                    </table>
+                </div>
+                <img class="music-sheet" src="topham.png" alt="music sheet">
+            </div>
+            <div class="carousel-item">
+                <h1>3</h1>
+                <div class="music-key">
+                    <table>
+                        <tr>
+                            <td class="keyb-key"></td>
+                        </tr>
+                        <tr>
+                            <td class="mus-key"></td>
+                        </tr>
+                    </table>
+                </div>
+                <img class="music-sheet" src="topham.png" alt="music sheet">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="piano">
+        <div class="piano-box">
+            <button class="whitekey Q q pianokey">Q</button>
+            <button class="blackkey W w pianokey">W</button>
+            <button class="whitekey E e pianokey">E</button>
+            <button class="blackkey R r pianokey">R</button>
+            <button class="whitekey T t pianokey">T</button>
+            <button class="blackkey Y y pianokey">Y</button>
+            <button class="whitekey U u pianokey">U</button>
+            <button class="whitekey I i pianokey">I</button>
+            <button class="blackkey O o pianokey">O</button>
+            <button class="whitekey P p pianokey">P</button>
+            <button class="blackkey A a pianokey">A</button>
+            <button class="whitekey S s pianokey">S</button>
+            <button class="whitekey d D pianokey">D</button>
+            <button class="blackkey F f pianokey">F</button>
+            <button class="whitekey G g pianokey">G</button>
+            <button class="blackkey H h pianokey">H</button>
+            <button class="whitekey J j pianokey">J</button>
+            <button class="blackkey K k pianokey">K</button>
+            <button class="whitekey L l pianokey">L</button>
+            <button class="whitekey X x pianokey">X</button>
+            <button class="blackkey C c pianokey">C</button>
+            <button class="whitekey V v pianokey">V</button>
+            <button class="blackkey B b pianokey">B</button>
+            <button class="whitekey N n pianokey">N</button>
+
+        </div>
+    </section>
+
+
+    <script src="piano.js" charset="utf-8"></script>
+</body>
+
+</html>
